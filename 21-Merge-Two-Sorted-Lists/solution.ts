@@ -1,4 +1,4 @@
-import { ListNode } from "../206.Reverse-Linked-List/solution";
+import { ListNode } from "../206-Reverse-Linked-List/solution";
 
 /**
  * Merge Two Linked Lists (Iterative)

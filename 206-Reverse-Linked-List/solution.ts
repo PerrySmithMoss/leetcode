@@ -43,7 +43,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 function reverseListRecursively(head: ListNode | null): ListNode | null {
   if (head == null || head.next == null) return head;
 
-  var res = reverseListRecursively(head.next);
+  var res = reverseList(head.next);
 
   head.next.next = head;
   head.next = null;
