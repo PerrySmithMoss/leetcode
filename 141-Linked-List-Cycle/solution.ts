@@ -1,6 +1,9 @@
 import { ListNode } from "../206-Reverse-Linked-List/solution";
 
 /**
+ * Linked List (Iterative)
+ * Time O(N) | Space O(1)
+ * https://leetcode.com/problems/linked-list-cycle/
  * @param {ListNode} head
  * @return {boolean}
  */
