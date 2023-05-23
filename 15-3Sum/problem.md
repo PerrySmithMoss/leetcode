@@ -21,7 +21,7 @@ Notice that the solution set must not contain duplicate triplets.
 > Output: []
 > Explanation: The only possible triplet does not sum up to 0.
 
-##### Example 2:
+##### Example 3:
 
 > Input: nums = [0,0,0]
 > Output: [[0,0,0]]
