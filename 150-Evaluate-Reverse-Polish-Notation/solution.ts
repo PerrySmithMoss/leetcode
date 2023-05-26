@@ -1,4 +1,8 @@
 /**
+ * Stack
+ * Time is O(n) | Space O(n)
+ * https://leetcode.com/problems/evaluate-reverse-polish-notation
+ *
  * @param {string[]} tokens
  * @return {number}
  */
