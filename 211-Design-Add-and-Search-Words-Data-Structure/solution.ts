@@ -1,10 +1,8 @@
 /**
  * Trie Prefix Tree
  * Time is O(n) | Space O(n)
- * https://leetcode.com/problems/daily-temperatures
+ * https://leetcode.com/problems/design-add-and-search-words-data-structure
  *
- * @param {number[]} temperatures
- * @return {number[]}
  */
 interface TrieNode {
   [key: string]: TrieNode | boolean;
