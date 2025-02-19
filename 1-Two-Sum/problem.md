@@ -9,8 +9,7 @@ You can return the answer in any order.
 ##### Example 1:
 
 > **Input:** nums = [2,7,11,15], target = 9
-> **Output:** [0,1] 
-> **Explination:** Because nums[0] + nums[1] == 9, we return [0, 1].
+> **Output:** [0,1] > **Explination:** Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ##### Example 2:
 
@@ -60,4 +59,18 @@ var twoSum = function (nums, target) {
     hash[nums[i]] = i;
   }
 };
+```
+
+```go
+func twoSum(nums []int, target int) []int {
+	m := make(map[int]int, len(nums))
+
+	for i, num := range nums {
+		if value, exists := m[target-num]; exists {
+			return []int{i, value}
+		}
+		m[num] = i
+	}
+	return nil
+}
 ```
