@@ -44,8 +44,6 @@ If it is we know it's impossible for it to be a palindrome.
 ##### Code
 
 ```go
-package solutions
-
 import "strconv"
 
 // Half reverse of x
