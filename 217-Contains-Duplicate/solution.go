@@ -1,4 +1,4 @@
-package solutions
+package main
 
 func containsDuplicate(nums []int) bool {
 	m := make(map[int]bool, len(nums))
