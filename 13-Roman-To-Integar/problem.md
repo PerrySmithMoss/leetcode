@@ -141,8 +141,6 @@ function romanToInt(s: string): number {
 ```
 
 ```go
-package solutions
-
 func romanToInt(s string) int {
 	m := map[byte]int{
 		'I': 1,

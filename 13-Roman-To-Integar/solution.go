@@ -1,4 +1,4 @@
-package solutions
+package main
 
 func romanToInt(s string) int {
 	m := map[byte]int{
