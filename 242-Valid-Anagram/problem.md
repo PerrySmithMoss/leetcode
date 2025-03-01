@@ -57,3 +57,28 @@ var isAnagram = function (s, t) {
   return true;
 };
 ```
+
+```go
+func isAnagram(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	counts := make(map[rune]int)
+
+	for _, char := range s {
+		counts[char]++
+	}
+	for _, char := range t {
+		counts[char]--
+	}
+
+	for _, count := range counts {
+		if count != 0 {
+			return false
+		}
+	}
+
+	return true
+}
+```
